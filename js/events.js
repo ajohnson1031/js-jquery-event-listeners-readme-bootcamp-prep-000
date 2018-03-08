@@ -10,6 +10,16 @@ function frameIt() {
     $(this).addClass('tasty');
   })
 }
+
+function pressIt() {
+  $('form#typing').on('keydown', function(e){
+    console.log(e.key);
+    if(e.key === 'g') {
+      alert(`You're a ${e.key}!!!`);
+    }
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
