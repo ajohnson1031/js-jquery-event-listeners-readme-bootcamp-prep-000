@@ -13,7 +13,7 @@ function frameIt() {
 
 function pressIt() {
   $('input[id=typing]').on('keydown', function(e){
-    console.log(e.key);
+    console.log(e.which);
     if(e.which === 71) {
       alert(`You're a ${e.key}!!!`);
     }
