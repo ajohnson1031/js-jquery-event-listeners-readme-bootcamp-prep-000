@@ -26,6 +26,6 @@ function submitIt() {
   });
 }
 $(document).ready(function(){
-
+  pressIt();
 // call functions here
 });
