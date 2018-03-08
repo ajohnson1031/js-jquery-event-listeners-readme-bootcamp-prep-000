@@ -12,7 +12,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form > #typing').on('keydown', function(e){
+  $('input[typing]').on('keydown', function(e){
     console.log(e.key);
     if(e.key === 'G') {
       alert(`You're a ${e.key}!!!`);
